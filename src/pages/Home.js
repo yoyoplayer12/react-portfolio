@@ -30,7 +30,7 @@ function Home(props) {
                 <Achievement title="CSS Zengarden" link="https://zengarden.yorickdv.be" type="Dance themed CSS Zengarden" place="2 XD" language={["css3", "html5"]} />
                 <Achievement title="Animated deathproof poster" link="https://yorickdv.be/projects/2IMD/deathproof/death-proof.html" type="CSS Animation" place="2 XD" language={["css3", "html5"]} />
                 <Achievement title="Animated shampoo logo" link="https://portfolionew.blob.core.windows.net/video/shampoo.mp4?sp=r&st=2023-09-30T19:53:04Z&se=2027-08-03T03:53:04Z&sv=2022-11-02&sr=c&sig=b4BTmho%2FXbX6UNIkopLG5YWAoohui%2FhMWQr%2FFgEVEHE%3D" type="Motion animation" place="2 XD" language={["Apple Motion"]} />
-                <Achievement title="Avicii google doodle" link="https://yorickdv.be/projects/1IMD/doodle/index.html" type="CSS Animation" place="1 XD" language={["css3", "html5"]} />
+                <Achievement title="Avicii google doodle" link="https://doodle.yorickdv.be" type="CSS Animation" place="1 XD" language={["css3", "html5"]} />
             </div>
         </div>
     );
