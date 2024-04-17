@@ -18,6 +18,15 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 1300px;
+  padding: 100px 0;
+}
+.section.section-no-pad{
+  padding: 0;
+}
+.section.section-blocks{
+  align-items: start;
+  justify-content: start;
 }
 h1,
 a.fp-title{
@@ -50,29 +59,32 @@ a.mini-link-title:hover{
   justify-content: center;
   align-items: center;
 }
-.section{
-  padding: 100px 0;
-}
 a.achievement{
-  display: block;
+  display: flex;
   text-decoration: none;
   color: #333;
   padding: 20px;
+  flex-direction: column;
+  width: 300px;
 }
 a.achievement:hover{
   background-color: #3333331c;
 }
-a.achievement:hover{
-  display: block;
-  text-decoration: none;
-  color: #333;
-  padding: 20px;
+a.achievement h2{
+  margin: 0;
+}
+a.achievement .grey-text{
+  margin-top: 5px;
 }
 .pill{
   background-color: #333;
   color: white;
   padding: 5px 10px;
   border-radius: 20px;
-  margin: 0 5px;
+  margin: 0;
   width: fit-content;
+  font-size: 0.75em;
+}
+.grey-text{
+  color: rgb(114, 114, 114);
 }
