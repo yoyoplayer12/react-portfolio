@@ -13,11 +13,22 @@ code {
     monospace;
 }
 .section{
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 1300px;
+  padding: 100px 0;
+  margin-inline: auto;
+}
+.section.section-no-pad{
+  padding: 0;
+}
+.section.section-blocks{
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 h1,
 a.fp-title{
@@ -50,29 +61,75 @@ a.mini-link-title:hover{
   justify-content: center;
   align-items: center;
 }
-.section{
-  padding: 100px 0;
-}
 a.achievement{
-  display: block;
+  position: relative;
+  display: flex;
   text-decoration: none;
   color: #333;
   padding: 20px;
+  flex-direction: column;
+  width: 46%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a.achievement:only-child{
+  border-radius: 20px;
+  width: 100%;
+}
+a.achievement::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* black background with 50% opacity */
 }
 a.achievement:hover{
-  background-color: #3333331c;
+  filter: brightness(0.9);
 }
-a.achievement:hover{
-  display: block;
-  text-decoration: none;
-  color: #333;
-  padding: 20px;
+a.achievement h2,
+a.achievement p{
+  z-index: 1;
+}
+a.achievement h2{
+  margin: 0;
+  color: white;
+}
+a.achievement .grey-text{
+  margin-top: 5px;
+}
+.pills{
+  display: flex;
+  gap: 5px;
 }
 .pill{
   background-color: #333;
   color: white;
   padding: 5px 10px;
   border-radius: 20px;
-  margin: 0 5px;
+  margin: 0;
   width: fit-content;
+  font-size: 0.75em;
+}
+.grey-text{
+  color: rgb(186, 186, 186);
+}
+.achievement-title-wrapper:hover .achievement-title-wrapper-text{
+  visibility: visible;
+  opacity: 1;
+}
+.work-in-progress-banner{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgb(137, 0, 0);
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  font-size: 1em;
+  color: white;
+  font-weight: 800;
 }
