@@ -8,7 +8,9 @@ function Home(props) {
                 <a href="#section-1" className='fp-title'>{props.title}</a>
             </div>
             <div className='section' id='section-1'>
-                
+                <a href="#section-code" className='mini-link-title'>I Code</a>
+                <a href="#section-dj" className='mini-link-title'>I DJ</a>
+                <a href="#section-design" className='mini-link-title'>I Design</a>
             </div>
             <div className='section' id='section-code'>
                 <Achievement title="Beach Puppies (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/BeachPuppies/game.html" type="game" place="1 XD" language="JavaScript" />
