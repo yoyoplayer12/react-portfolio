@@ -49,3 +49,11 @@ a.achievement:hover{
   color: #333;
   padding: 20px;
 }
+.pill{
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 0 5px;
+  width: fit-content;
+}

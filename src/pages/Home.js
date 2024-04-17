@@ -11,9 +11,9 @@ function Home(props) {
                 
             </div>
             <div className='section' id='section-code'>
-                <Achievement title="Beach Puppies (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/BeachPuppies/game.html" />
-                <Achievement title="Cub Defender (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/clubdefender/portrait.html" />
-                <Achievement title="Copoll | php - XD year 2" link="https://github.com/yoyoplayer12/desity" />
+                <Achievement title="Beach Puppies (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/BeachPuppies/game.html" type="game" place="1 XD" language="JavaScript" />
+                <Achievement title="Cub Defender (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/clubdefender/portrait.html" type="game" place="1 XD" language="JavaScript" />
+                <Achievement title="Copoll | php - XD year 2" link="https://github.com/yoyoplayer12/desity" type="Community platform" place="2 XD" language="php" />
             </div>
         </div>
     );
