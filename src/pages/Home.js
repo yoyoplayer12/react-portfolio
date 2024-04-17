@@ -4,7 +4,7 @@ function Home(props) {
   
     return (
         <div>
-            <div class='viewheight-centered-block'>
+            <div className='viewheight-centered-block'>
                 <h1>{props.title}</h1>
             </div>
             <div class='section'>
