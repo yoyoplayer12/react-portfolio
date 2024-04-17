@@ -12,6 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 h1,
 a.fp-title{
   color: #333;
@@ -23,6 +30,18 @@ a.fp-title{
   text-decoration: none;
 }
 a.fp-title:hover{
+  text-decoration: underline;
+}
+a.mini-link-title{
+  color: #333;
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  text-decoration: none;
+}
+a.mini-link-title:hover{
   text-decoration: underline;
 }
 .viewheight-centered-block{
