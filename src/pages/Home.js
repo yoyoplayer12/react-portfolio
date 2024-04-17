@@ -5,12 +5,15 @@ function Home(props) {
     return (
         <div>
             <div className='viewheight-centered-block'>
-                <h1>{props.title}</h1>
+                <a href="#section-1" className='fp-title'>{props.title}</a>
             </div>
-            <div class='section'>
-                <Achievement title="First Achievement" link="https://www.google.com" />
-                <Achievement title="Second Achievement" link="https://www.google.com" />
-                <Achievement title="Third Achievement" link="https://www.google.com" />
+            <div className='section' id='section-1'>
+                
+            </div>
+            <div className='section' id='section-code'>
+                <Achievement title="Beach Puppies (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/BeachPuppies/game.html" />
+                <Achievement title="Cub Defender (game) | JavaScript - XD year 1" link="https://yorickdv.be/projects/1IMD/clubdefender/portrait.html" />
+                <Achievement title="Copoll | php - XD year 2" link="https://github.com/yoyoplayer12/desity" />
             </div>
         </div>
     );
