@@ -12,19 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.section{
+section{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1300px;
   padding: 100px 0;
   margin-inline: auto;
 }
-.section.section-no-pad{
+section.section-no-pad{
   padding: 0;
 }
-.section.section-blocks{
+section.section-blocks{
   align-items: start;
   justify-content: start;
   flex-direction: row;
