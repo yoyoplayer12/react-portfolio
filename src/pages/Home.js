@@ -71,17 +71,17 @@ function Home(props) {
                 <Achievement title="Shoe configurator Backend" type="Backend configurator" place="3 XD" language={['Node.js', "MongoDB", "css3"]} link="https://shoeback.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/swear-back.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
                 <Achievement title="Shoe configurator" type="3D Configurator" place="3 XD" language={['ThreeJs', "VueJs", "css3"]} link="https://shoe.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/swear.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
                 <Achievement title="Copoll" type="Community platform" place="2 XD" language={['php', "MySql", "JavaScript", "html5", "css3"]} link="https://github.com/yoyoplayer12/desity" />
-                <Achievement title="Cub Defender" type="Game" place="1 XD" language={["JavaScript", "css3"]} link="https://clubdefender.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/corona.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
-                <Achievement title="Beach Puppies" type="Game" place="1 XD" language={["JavaScript", "css3"]} link="https://beach.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/beach.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
+                <Achievement title="Cub Defender" type="Game" place="1 XD" language={["JavaScript", "css3"]} link="https://club.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/corona.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
+                <Achievement title="Beach Puppies" type="Game" place="1 XD" language={["JavaScript", "css3"]} link="https://puppies.yorickdv.be" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/beach.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
             </section>
             <section className='section section-blocks lightdark-background lightest-color' id='section-dj'>
                 <Achievement title="Go to www.zwabber.be" link="www.zwabber.be"/>
             </section>
             <section className='section section-blocks dark-background lightest-color' id='section-design'>
-                <Achievement title="CSS Zengarden" link="https://zengarden.yorickdv.be" type="Dance themed CSS Zengarden" place="2 XD" language={["css3", "html5"]} />
+                <Achievement title="CSS Zengarden" link="https://zennn.yorickdv.be" type="Dance themed CSS Zengarden" place="2 XD" language={["css3", "html5"]} />
                 <Achievement title="Animated deathproof poster" link="https://yorickdv.be/projects/2IMD/deathproof/death-proof.html" type="CSS Animation" place="2 XD" language={["css3", "html5"]} />
                 <Achievement title="Animated shampoo logo" link="https://portfolioyo.blob.core.windows.net/video/shampoo.mp4?sp=r&st=2023-09-30T19:53:04Z&se=2027-08-03T03:53:04Z&sv=2022-11-02&sr=c&sig=b4BTmho%2FXbX6UNIkopLG5YWAoohui%2FhMWQr%2FFgEVEHE%3D" type="Motion animation" place="2 XD" language={["Apple Motion"]} />
-                <Achievement title="Avicii google doodle" link="https://doodle.yorickdv.be" type="CSS Animation" place="1 XD" language={["css3", "html5"]} />
+                <Achievement title="Avicii google doodle" link="https://avicii.yorickdv.be" type="CSS Animation" place="1 XD" language={["css3", "html5"]} />
             </section>
             <section className='dark-background lightest-color'>
                 <h2 className='lightest-color'>Contact</h2>
