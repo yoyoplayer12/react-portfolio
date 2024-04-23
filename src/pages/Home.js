@@ -63,7 +63,7 @@ function Home(props) {
                 <a href="#section-design" className='mini-link-title lightest-color'>I Design</a>
             </section>
             <section className='section section-blocks dark-background lightest-color' id='section-code'>
-                <Achievement title="Sofa Configurator" type="WordPress Website" place="Flux" language={["ACF", "WPML", "FormCraft", "WPbakery", "css3", "php", "html5"]} link="https://sofa-configurator.com/" backgroundImage="" />
+                <Achievement title="Sofa Configurator" type="WordPress Website" place="Flux" language={["ACF", "WPML", "FormCraft", "WPbakery", "css3", "php", "html5"]} link="https://sofaconfigurator.com/" backgroundImage="" />
                 <Achievement title="Table Configurator" type="WordPress Website" place="Flux" language={["ACF", "WPML", "FormCraft", "WPbakery", "css3", "php", "html5"]} link="https://table-configurator.com/" backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/table.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
                 <Achievement title="PulsAid App" type="Android/IOS App" place="3 XD" language={['Flutter', "Dart", "Swift"]} workInProgress={true} link="https://github.com/yoyoplayer12/PulsAidApp" />
                 <Achievement title="PulsAid Site" type="Static Website" place="3 XD" language={['html5', "css3", "JavaScript"]} workInProgress={true} link='https://pulsaid.be/en/index.html' backgroundImage="https://portfolioyo.blob.core.windows.net/reactportfolio/tumbnails/pulsaid.jpg?sp=r&st=2024-04-22T12:02:05Z&se=2024-04-22T20:02:05Z&sv=2022-11-02&sr=c&sig=jlnpiTuEXfCgpgIEi4KMz0M6UUKsYMTO8osGsg84ErI%3D" />
